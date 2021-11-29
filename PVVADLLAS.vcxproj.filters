@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Util">
+      <UniqueIdentifier>{6c45b204-6a96-41ca-86ea-5e1118a743fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Calculation">
+      <UniqueIdentifier>{2717c04a-2cb4-421b-8f61-ad9b2d738bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\VTK">
+      <UniqueIdentifier>{d2c4ae72-be35-4e12-aca4-efc3a6922f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Calculation">
+      <UniqueIdentifier>{c875956e-14b6-4d83-a6d3-b77943a93549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\VTK">
+      <UniqueIdentifier>{a438391f-937a-4773-afaa-b8f6e9df5f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{a6e9645f-e563-47c0-be8f-8ae31fd53d8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PVVADllAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation\FFT.h">
+      <Filter>头文件\Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation\fftw3.h">
+      <Filter>头文件\Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation\PVVAAS.h">
+      <Filter>头文件\Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="VTK\Field.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Constant_Var.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\GEMS_Memory.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\GraphTrans.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Matrix4D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Position3D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Vector2.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Vector3.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Vector3D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\BasicParameters.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\Ellipsoid.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\Mirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\MirrorFactory.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\Paraboloid.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\PlaneMirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\QuadricSurfaceMirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\RayTracing.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\Restriction.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MirrorsAndRestriction\STLMirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\comUtil.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PVVADllAS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculation\FFT.cpp">
+      <Filter>源文件\Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculation\PVVAAS.cpp">
+      <Filter>源文件\Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="VTK\Field.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Matrix4D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Position3D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Vector3D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\BasicParameters.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\Ellipsoid.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\Mirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\MirrorFactory.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\Paraboloid.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\PlaneMirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\QuadricSurfaceMirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\RayTracing.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\Restriction.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MirrorsAndRestriction\STLMirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\comUtil.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
